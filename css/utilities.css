@@ -1,7 +1,21 @@
+
+.bg-image{
+    background-image: url(/images/bg_img.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
 .flex{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 14px 14px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
 }
