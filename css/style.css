@@ -5,6 +5,7 @@
     --primary-color: #FF7400;
     --secondary-color: #D67E35;
     --third-color: #BC9060;
+    --loong-pgh-color: #656363;
 }
 
 * {
@@ -174,9 +175,9 @@ a {
     background-color: #fff;
     color: #222;
     margin: 0 15px;
-     box-shadow: 0 10px 10px 15px #0000001A;
+    box-shadow: 0 10px 10px 15px #0000001A;
 }
-    
+
 .card .card-logo{
     padding: 48px 130px 0;
 }
@@ -191,7 +192,7 @@ a {
 }
 
 .card span .color{
-    color: #BC9060;
+    color: var(--third-color);
 }
 
 .card .card-text{
@@ -202,4 +203,48 @@ a {
     margin: 20px;
     font-family: 'Tinos';
 }
+
+/* History case */
+
+.history{
+    margin-top: 166px;
+}
+
+.history-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;    
+}
+
+.header-text{
+    color: #000;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+}
+
+.history-text .main-text{
+    color: var(--loong-pgh-color);
+    
+}
+
+.header-text span{
+    color: var(--secondary-color);
+}
+
+/* .restoraunt-stats span{
+    color: var(--third-color);
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.restoraunt-stats h3{
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+} */
+
+
+
 
