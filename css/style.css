@@ -183,8 +183,6 @@ a {
 }
 
 .card-header{
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
     font-weight: 400;
     font-size: 26px;
@@ -207,43 +205,64 @@ a {
 /* History case */
 
 .history{
+    display: flex;
+    justify-content: space-between;
     margin-top: 166px;
 }
 
-.history-content{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;    
+.history-text{
+    margin-top: 16px;
+    max-width: 444px;
+    text-align: center;
 }
 
 .header-text{
     color: #000;
-    font-family: 'Tinos';
     font-weight: 400;
     font-size: 54px;
+    font-family: tinos;
+}
+
+.header-text span .color{
+    color: var(--primary-color);
+}
+
+.main-text h1{
+    color: var(--loong-pgh-color);
+    font-weight: 400;
+    font-size: 16px;  
+}
+
+.restoraunt{
+    margin: 39px;
+}
+
+.restoraunt-amount{
+    display: flex;  
+    justify-content: space-around;
+    color: var(--third-color);
     text-align: center;
 }
 
-.history-text .main-text{
-    color: var(--loong-pgh-color);
-    
-}
-
-.header-text span{
-    color: var(--secondary-color);
-}
-
-/* .restoraunt-stats span{
+.restoraunt-amount h1{
     color: var(--third-color);
-    font-weight: 400;
     font-size: 40px;
+    font-weight: 400;
 }
 
-.restoraunt-stats h3{
+.restoraunt-stats{    
+    display: flex;  
+    justify-content: space-around;
+}
+
+.restoraunt-stats h1{
     color: #000;
-    font-weight: 400;
     font-size: 20px;
-} */
+    font-weight: 400;
+}
+
+
+
 
 
 
