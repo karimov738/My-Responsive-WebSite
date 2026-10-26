@@ -1,9 +1,5 @@
 
-.bg-image{
-    background-image: url(/images/bg_img.jpg);
-    background-size: cover;
-    height: 800px;
-}
+
 
 .flex{
     display: flex;
@@ -17,5 +13,5 @@
     padding: 14px 14px;
     color: #fff;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
 }
