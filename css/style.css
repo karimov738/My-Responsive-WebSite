@@ -567,14 +567,42 @@ a {
     font-size: 54px;
     font-family: Tinos;
     text-align: center;
+    padding-top: 100px;
 }
 
 .shefs-title .color {
     color: var(--secondary-color);
 }
 
-.shefuck-cards{
+.shefuck-cards {
     display: flex;
     justify-content: space-around;
+    margin: 100px 0;
 }
 
+.shefuck-cards .card {
+    width: 350px;
+    height: 450px;
+}
+
+.shefinya {
+    background-image: url(/images/shefinya.jpg);
+    background-size: cover;
+}
+
+.shef-pizza {
+    background-image: url(/images/cook-pizza.jpg);
+    background-size: cover;
+}
+
+.shef-bread {
+    background-image: url(/images/shef-bread.png);
+    background-size: cover;
+}
+
+/* Low Background Image */
+.low-bg {
+    background-image: url(/images/last-bg-image.jpg);
+    background-size: cover;
+    height: 732px;
+}
