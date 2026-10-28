@@ -1,5 +1,7 @@
-
-
+.container {
+    max-width: 1138px;
+    margin-inline: auto;
+}
 
 .flex{
     display: flex;
@@ -10,7 +12,7 @@
 .btn{
     background-color: var(--primary-color);
     border: none;
-    padding: 14px 14px;
+    padding: 14px 18px;
     color: #fff;
     font-weight: 700;
     font-size: 14px;
