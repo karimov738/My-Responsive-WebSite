@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Actualy My Responsive WebSite</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -14,80 +15,82 @@
 
 <body>
     <!-- Navbar and logo -->
-    <section class="hero">
-        <header class="header">
-            <div class="container navbar">
-                <div class="rectangles">
-                    <img src="logo/LOGO.svg" alt="">
-                </div>
-                <div class="nav-right-content">
-                    <div class="links">
-                        <ul>
-                            <li><a href="#">ГЛАВНАЯ</a></li>
-                            <li><a href="#">МЕНЮ</a></li>
-                            <li><a href="#">О НАС</a></li>
-                            <li><a href="#">БРОНЬ</a></li>
-                            <li><i class="fa-solid fa-cart-shopping"></i></li>
-                        </ul>
+    <section>
+        <div class="hero">
+            <header class="header">
+                <div class="container navbar">
+                    <div class="rectangles">
+                        <img src="logo/LOGO.svg" alt="">
                     </div>
-                    <div class="line">
-                        <img src="/logo/Line1.svg" alt="">
+                    <div class="nav-right-content">
+                        <div class="links">
+                            <ul>
+                                <li><a href="#">ГЛАВНАЯ</a></li>
+                                <li><a href="#">МЕНЮ</a></li>
+                                <li><a href="#">О НАС</a></li>
+                                <li><a href="#">БРОНЬ</a></li>
+                                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                            </ul>
+                        </div>
+                        <div class="line">
+                            <img src="/logo/Line1.svg" alt="">
+                        </div>
+                        <div class="contact-us">
+                            <h2> <img class="phone-logo" src="/logo/phone.svg" alt="">+999-888-76-54</h2>
+                            <p>Свяжитесь с нами для <br>бронирования</p>
+                        </div>
+                        <div class="order">
+                            <button class="btn">ЗАКАЗ СТОЛИКА</button>
+                        </div>
                     </div>
-                    <div class="contact-us">
-                        <h2> <img class="phone-logo" src="/logo/phone.svg" alt="">+999-888-76-54</h2>
-                        <p>Свяжитесь с нами для <br>бронирования</p>
-                    </div>
-                    <div class="order">
-                        <button class="btn">ЗАКАЗ СТОЛИКА</button>
-                    </div>
+
                 </div>
 
-            </div>
+                <!-- <div class="container navbar-responsive hidden">
+                    <div class="rectangles">
+                        <img src="logo/LOGO.svg" alt="">
+                    </div>
+                    <div class="nav-right-content">
+                        <div class="links">
+                            <ul>
+                                <li><a href="#">ГЛАВНАЯ</a></li>
+                                <li><a href="#">МЕНЮ</a></li>
+                                <li><a href="#">О НАС</a></li>
+                                <li><a href="#">БРОНЬ</a></li>
+                                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                                <li> <h2> <img class="phone-logo" src="/logo/phone.svg" alt="">+999-888-76-54</h2>
+                            <p>Свяжитесь с нами для <br>бронирования</p></li>
+                            <li><button class="btn">ЗАКАЗ СТОЛИКА</button></li>
+                            </ul>
+                        </div>
+                        <div class="line">
+                            <img src="/logo/Line1.svg" alt="">
+                        </div>
+                        <div class="contact-us">
+                            <h2> <img class="phone-logo" src="/logo/phone.svg" alt="">+999-888-76-54</h2>
+                            <p>Свяжитесь с нами для <br>бронирования</p>
+                        </div>
+                        <div class="order">
+                            
+                        </div>
+                    </div>
 
-            <!-- <div class="container navbar-responsive hidden">
-                <div class="rectangles">
-                    <img src="logo/LOGO.svg" alt="">
-                </div>
-                <div class="nav-right-content">
-                    <div class="links">
-                        <ul>
-                            <li><a href="#">ГЛАВНАЯ</a></li>
-                            <li><a href="#">МЕНЮ</a></li>
-                            <li><a href="#">О НАС</a></li>
-                            <li><a href="#">БРОНЬ</a></li>
-                            <li><i class="fa-solid fa-cart-shopping"></i></li>
-                            <li> <h2> <img class="phone-logo" src="/logo/phone.svg" alt="">+999-888-76-54</h2>
-                        <p>Свяжитесь с нами для <br>бронирования</p></li>
-                        <li><button class="btn">ЗАКАЗ СТОЛИКА</button></li>
-                        </ul>
-                    </div>
-                    <div class="line">
-                        <img src="/logo/Line1.svg" alt="">
-                    </div>
-                    <div class="contact-us">
-                        <h2> <img class="phone-logo" src="/logo/phone.svg" alt="">+999-888-76-54</h2>
-                        <p>Свяжитесь с нами для <br>бронирования</p>
-                    </div>
-                    <div class="order">
-                        
-                    </div>
-                </div>
+                </div> -->
 
-            </div> -->
-
-        </header>
-        <div class="container showcase">
-            <!-- Showcase -->
-            <div class="showcase-content flex">
-                <span>Добро пожаловать в</span>
-                <span>Наш ресторант</span>
-                <div>
-                    <h3>
-                        <img src="/logo/Rectangle 26.svg" alt=""> ДОМ ЛУЧШЕЙ ЕДЫ <img src="/logo/Rectangle 27.svg"
-                            alt="">
-                    </h3>
+            </header>
+            <div class="container showcase">
+                <!-- Showcase -->
+                <div class="showcase-content flex">
+                    <span>Добро пожаловать в</span>
+                    <span>Наш ресторант</span>
+                    <div>
+                        <h3>
+                            <img src="/logo/Rectangle 26.svg" alt=""> ДОМ ЛУЧШЕЙ ЕДЫ <img src="/logo/Rectangle 27.svg"
+                                alt="">
+                        </h3>
+                    </div>
+                    <button class="btn">МЕНЮ</button>
                 </div>
-                <button class="btn">View Menu</button>
             </div>
         </div>
 
@@ -147,6 +150,7 @@
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- History case -->
@@ -160,14 +164,32 @@
                 </div>
                 <div class="main-text">
                     <h1>
-                        Как и у любого другого самобытного места, у нас есть<br> своя, особая история. Идея
-                        ресторана пришла <br>основателям неожиданно. Во время прогулки по лесу<br> создатель нашего
-                        ресторана застрял в сотнях<br> километров от ближайшего населенного пункта. Вдали <br>от
-                        цивилизации и связи им пришлось навремя<br> обустровать себе нехитрый быт, добывать и
-                        готовить<br> себе еду.
+                        Как и у любого другого самобытного места, у нас есть своя, особая история. Идея
+                        ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего
+                        ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от
+                        цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и
+                        готовить себе еду.
                     </h1>
                 </div>
+
                 <div class="restoraunt">
+                    <div class="amount">
+                        <span class="color">93</span>
+                        <span>Напитки</span>
+                    </div>
+
+                    <div class="amount">
+                        <span class="color">206</span>
+                        <span>Еда</span>
+                    </div>
+
+                    <div class="amount">
+                        <span class="color">71</span>
+                        <span>Закуски</span>
+                    </div>
+                </div>
+
+                <!-- <div class="restoraunt">
                     <div class="restoraunt-amount">
                         <h1 class="color">93</h1>
                         <h1 class="color">206</h1>
@@ -178,7 +200,7 @@
                         <h1>Еда</h1>
                         <h1>Закуски</h1>
                     </div>
-                </div>
+                </div> -->
 
             </div>
             <div class="hist-images">
@@ -252,7 +274,7 @@
                         </span>
                     </div>
                     <div class="menu-text">
-                        <span>Максимально толстый
+                        <span>Максимально толстый<br>
                             слой мяса
                         </span>
                     </div>
