@@ -11,6 +11,21 @@
 
     .menu-cards .card {
         max-width: 330px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .features-content .card {
+        max-width: 306px;
+    }
+
+    .line-dashed {
+        border: 1px solid #000;
     }
 }
 
@@ -34,19 +49,76 @@
         align-items: center;
     }
 
-
-
-
-
-
-
-
     .menu-cards {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 970px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .nav-right-content,
+    .navbar,
+    .links ul li {
+        flex-wrap: wrap;
+    }
+
+    .dishes-content-body {
+        flex-direction: column;
+    }
+
+    .big-pizza {
+        max-width: 100%;
+    }
+
+    .mini-hamburger {
+        margin: 20px 0 0;
+    }
+
+    .mini-hamburger img {
+        margin: 0;
+    }
+
+    .line-dashed {
+        border: 1px dashed #000;
+    }
+}
+
+@media (max-width: 920px) {
+
+    /* .container{
+        max-width: ;
+    } */
+    .promo-content {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 890px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .g-images {
+        grid-template-columns: 240px 240px 240px 240px;
+        grid-template-rows: 270px 270px 270px 270px;
+        grid-template-areas:
+            "box-1 box-1"
+            "box-2 box-3"
+            "box-6 box-6"
+            "box-4 box-5";
     }
 }
 
 @media (max-width: 800px) {
+
+    .container {
+        max-width: 600px;
+    }
 
     .showcase {
         display: block;
@@ -67,6 +139,11 @@
         align-items: center;
     }
 
+    .menu-cards .card:last-child,
+    .menu-cards .card:nth-child(2) {
+        display: none;
+    }
+
     /* .navbar-responsive{
         display: flex;
         flex-direction: column;
@@ -84,7 +161,26 @@
 
 }
 
+@media (max-width: 700px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .hist-images img {
+        max-width: 290px;
+    }
+}
+
+
 @media (max-width: 580px) {
+
+    .container {
+        max-width: 400px;
+    }
+
+    .links ul {
+        flex-wrap: wrap;
+    }
 
     .showcase-content span:first-child {
         font-size: 30px;
@@ -103,6 +199,13 @@
         padding: 30px 10px;
     }
 
+    .mini-hamburger img {
+        max-width: 130px;
+        height: 110px;
+        object-fit: cover;
+        margin: 0 10px 0;
+    }
+
     .features-content .card .card-text {
         font-size: 22px;
     }
@@ -115,8 +218,44 @@
         max-width: 290px;
     }
 
-    .hist-images img {
-        max-width: 290px;
+    .burger-all {
+        flex-direction: column;
+    }
+
+    .burger-all .burger-name,
+    .burger-all .burger-price {
+        font-size: 22px;
+    }
+
+    .line-dashed {
+        display: none;
+    }
+
+    .g-images {
+        grid-template-columns: 370px 290px 290px 290px;
+        grid-template-rows: 270px 270px 270px 270px 270px 270px;
+        grid-template-areas:
+            "box-1"
+            "box-2"
+            "box-3"
+            "box-4"
+            "box-5"
+            "box-6";
+    }
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 340px;
+    }
+
+    .dot:last-child {
+        border: 1px solid var(--primary-color);
+    }
+
+    .g-images {
+        grid-template-columns: 310px;
     }
 }
 
@@ -128,4 +267,8 @@
     display: none;
 } */
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    .container {
+        max-width: 290px;
+    }
+}
