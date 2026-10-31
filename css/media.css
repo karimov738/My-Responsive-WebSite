@@ -71,6 +71,11 @@
         flex-wrap: wrap;
     }
 
+    .features-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .dishes-content-body {
         flex-direction: column;
     }
