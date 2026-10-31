@@ -36,14 +36,14 @@
     .line-dashed {
         border: 1px solid #000;
     }
-}
 
-@media (max-width: 1060px) {
-
-    .features-content {
+    .menu-cards {
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+@media (max-width: 1060px) {
 
     .features-content .card {
         margin: 10px;
@@ -58,10 +58,6 @@
         align-items: center;
     }
 
-    .menu-cards {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 
 @media (max-width: 970px) {
@@ -114,6 +110,7 @@
 
     .g-images {
         grid-template-columns: 240px 240px 240px 240px;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
         grid-template-rows: 270px 270px 270px 270px;
         grid-template-areas:
             "box-1 box-1"
@@ -265,13 +262,14 @@
     }
 
     .g-images {
-        grid-template-columns: 310px;
+        grid-template-columns: 1fr;
+        justify-content: center;
     }
 }
 
 
 @media (max-width: 420px) {
-    .shefuck-cards .card{
+    .shefuck-cards .card {
         width: 280px;
         height: 380px;
     }
