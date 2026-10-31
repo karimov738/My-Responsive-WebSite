@@ -28,7 +28,7 @@ body {
 
 .hero {
     position: relative;
-    background-image: url(/images/bg_img.jpg);
+    background-image: url(../images/bg_img.jpg);
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -244,10 +244,10 @@ a {
 
 /* Promo section */
 .promo-case {
-    background-image: url(/images/promo-bg.png);
+    background-image: url(../images/promo-bg.png);
     background:
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(/images/promo-bg.png) center / cover no-repeat;
+        url(../images/promo-bg.png) center / cover no-repeat;
 }
 
 .promo {
@@ -409,7 +409,7 @@ a {
 .menu-case {
     min-height: 1036px;
     margin-top: 150px;
-    background-image: url(/images/Restoraunt_BG.jpg);
+    background-image: url(../images/Restoraunt_BG.jpg);
     padding-top: 100px;
     padding-bottom: 100px;
     background-size: cover;
@@ -445,7 +445,7 @@ a {
 }
 
 .menu-logo {
-    background-image: url(/images/hamburger-max.jpg);
+    background-image: url(../images/hamburger-max.jpg);
     background-size: cover;
     border-radius: 50%;
     position: relative;
@@ -522,7 +522,7 @@ a {
 }
 
 .visitor {
-    background-image: url(/images/visitor.jpg);
+    background-image: url(../images/visitor.jpg);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -625,18 +625,18 @@ a {
 }
 
 .shefinya {
-    background-image: url(/images/shefinya.jpg);
+    background-image: url(../images/shefinya.jpg);
     background-size: cover;
 }
 
 .shef-pizza {
-    background-image: url(/images/cook-pizza.jpg);
+    background-image: url(../images/cook-pizza.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .shef-bread {
-    background-image: url(/images/shef-bread.png);
+    background-image: url(../images/shef-bread.png);
     background-size: cover;
     background-position: center;
 }
@@ -645,7 +645,7 @@ a {
 .low-bg {
     width: 100%;
     min-height: 732px;
-    background-image: url("/images/last-bg-image.jpg");
+    background-image: url(../images/last-bg-image.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
