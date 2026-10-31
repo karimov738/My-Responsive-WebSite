@@ -570,8 +570,7 @@ a {
 /* Gallery section */
 
 .gallery-title {
-    margin: 50px;
-    padding: 50px;
+    padding: 0 0 50px;
     color: #000;
     font-family: Tinos;
     font-weight: 400;
