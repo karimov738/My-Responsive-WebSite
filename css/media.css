@@ -269,6 +269,7 @@
     }
 }
 
+
 @media (max-width: 420px) {
     .shefuck-cards .card{
         width: 280px;
@@ -283,6 +284,7 @@
 .hidden {
     display: none;
 } */
+
 
 @media (max-width: 320px) {
     .container {

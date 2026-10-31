@@ -13,6 +13,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+}
+
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -639,7 +644,7 @@ a {
 /* Low Background Image */
 .low-bg {
     width: 100%;
-    min-height: 100vh;
+    min-height: 732px;
     background-image: url("/images/last-bg-image.jpg");
     background-size: cover;
     background-position: center;
