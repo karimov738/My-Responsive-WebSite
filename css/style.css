@@ -13,6 +13,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -626,15 +627,21 @@ a {
 .shef-pizza {
     background-image: url(/images/cook-pizza.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .shef-bread {
     background-image: url(/images/shef-bread.png);
     background-size: cover;
+    background-position: center;
 }
 
 /* Low Background Image */
 .low-bg {
-    background-image: url(/images/last-bg-image.jpg);
-    height: 732px;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/images/last-bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
